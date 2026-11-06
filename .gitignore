@@ -2,3 +2,4 @@ public/
 resources/
 tools/
 .hugo_build.lock
+assets/jsconfig.json
