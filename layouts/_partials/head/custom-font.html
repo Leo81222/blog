@@ -1,0 +1,9 @@
+{{/* 覆盖主题默认的 Google Fonts 引用：全中文站点使用本地系统字体栈，不加载任何外部字体资源 */}}
+<style>
+  :root {
+    --base-font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  body, h1, h2, h3, h4, h5, h6, .article-content, .site-name, .site-description {
+    font-family: var(--base-font-family) !important;
+  }
+</style>
